@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study stuff\\.Net console projects\\BookingApp\\TestCalenderBookingConsole\\TestCalenderBookingConsole.csproj": {}
+  },
+  "projects": {
+    "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\BookingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\BookingApp.csproj",
+        "projectName": "BookingApp",
+        "projectPath": "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\BookingApp.csproj",
+        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
+        "outputPath": "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study stuff\\.Net console projects\\BookingApp\\TestCalenderBookingConsole\\TestCalenderBookingConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study stuff\\.Net console projects\\BookingApp\\TestCalenderBookingConsole\\TestCalenderBookingConsole.csproj",
+        "projectName": "TestCalenderBookingConsole",
+        "projectPath": "D:\\Study stuff\\.Net console projects\\BookingApp\\TestCalenderBookingConsole\\TestCalenderBookingConsole.csproj",
+        "packagesPath": "C:\\Users\\sharm\\.nuget\\packages\\",
+        "outputPath": "D:\\Study stuff\\.Net console projects\\BookingApp\\TestCalenderBookingConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sharm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\BookingApp.csproj": {
+                "projectPath": "D:\\Study stuff\\.Net console projects\\BookingApp\\BookingApp\\BookingApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

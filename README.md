@@ -11,7 +11,7 @@ CREATE TABLE TEST_BOOKING1 (
 )
 ```
 
-## Installation 
+## Installation and Run 
 Open this solution with Visual Studio Code, then go to **TestCalenderBookingConsole** file directory using terminal
 
 Now,
